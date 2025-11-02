@@ -1,0 +1,30 @@
+{
+  "name": "web_sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/web_sdk.js",
+  "source": "src/web_sdk.ts",
+  "module": "dist/web_sdk.module.js",
+  "types": "dist/typings/index.d.ts",
+  "unpkg": "dist/web_sdk.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "example:run": "parcel examples/index.html",
+    "api:init": "api-extractor init",
+    "api:run": "api-extractor run --local --verbose",
+    "api:doc": "typedoc --out docs src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/api-extractor": "^7.12.1",
+    "microbundle": "^0.13.0",
+    "typedoc": "^0.20.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "web-vitals": "^1.1.0"
+  }
+}

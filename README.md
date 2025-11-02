@@ -421,7 +421,7 @@ try {
   });
 } catch (error) {
   console.error('SDK 初始化失败:', error.message);
-  // 错误消息: "京程一灯系统监控平台1.0.0提示未传递logUrl"
+  // 错误消息: "Wyle系统监控平台1.0.0提示未传递logUrl"
 }
 ```
 
@@ -1068,7 +1068,7 @@ try {
 } catch (error) {
   if (error instanceof Error) {
     console.error('初始化失败:', error.message);
-    // 输出: "京程一灯系统监控平台1.0.0提示未传递logUrl"
+    // 输出: "Wyle系统监控平台1.0.0提示未传递logUrl"
     
     // 可选：降级处理
     fallbackMonitoring();
@@ -1493,5 +1493,5 @@ ISC License - 详见 LICENSE 文件
 ---
 
 **最后更新**: 2025 年 11 月  
-**文档维护者**: 京程一灯团队  
+**文档维护者**: Wyle团队  
 **问题反馈**: 欢迎通过 Issue 或 Pull Request 反馈

@@ -32,7 +32,7 @@ export default class WEB_SDK {
     // 扩展基础配置
     const logUrl = options.logUrl;
     if (!logUrl) {
-      throw new Error(`京程一灯系统监控平台${this.v}提示未传递logUrl`);
+      throw new Error(`Wyle系统监控平台${this.v}提示未传递logUrl`);
     }
     //向后台输送数据
     const insReportData = new ReportData({
